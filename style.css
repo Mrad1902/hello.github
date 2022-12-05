@@ -13,9 +13,9 @@
     justify-content: space-around;
     cursor: pointer;
     position: absolute;
-right: -30px;
+right: 0;
 top: 50px;
-transform: translateX(110%);
+Opacity:0;
 width: 250px;
 transition: var(--tarnsition);
 
@@ -37,10 +37,10 @@ border-radius: 50%;
     cursor: pointer;
 }
 .show{
-    transform: translateX(0);
+    Opacity:1;
 }
 body{
-    overflow-x: hidden;
+    
     background-color: var(--main-bg-color);
     margin: 0;
     padding: 0;
